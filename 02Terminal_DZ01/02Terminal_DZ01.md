@@ -2,6 +2,7 @@
 ### Инструкция к заданию
 
 1. Установите средство виртуализации [Oracle VirtualBox](https://www.virtualbox.org/).
+![virtula box](https://github.com/vakhtanov/devops_netology_home_work/blob/main/02Terminal_DZ01/virtbox.JPG)
 
 1. Установите средство автоматизации [Hashicorp Vagrant](https://hashicorp-releases.yandexcloud.net/vagrant/).
 
