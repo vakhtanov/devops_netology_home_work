@@ -22,15 +22,12 @@
 	* [WSL2](https://docs.microsoft.com/ru-ru/windows/wsl/wsl2-faq#does-wsl-2-use-hyper-v-will-it-be-available-on-windows-10-home) использует Hyper-V, поэтому с ним VirtualBox также несовместим,
 	* аппаратная виртуализация (Intel VT-x, AMD-V) должна быть активна в BIOS,
 	* в Linux при установке [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads) может дополнительно потребоваться пакет `linux-headers-generic` (debian-based) / `kernel-devel` (rhel-based).
-	---
-	'''Пока буду пользоваться коммандной строкой Windows. Так как на компе какието ошибки или вирусы - не могу установить Win Terminal - не открывается Microsoft Store'''
-	---
+---
+[*Пока буду пользоваться коммандной строкой Windows.* 
+*Так как на компе какие-то ошибки или вирусы - не могу установить Win Terminal - не открывается Microsoft Store*]()
 
-
-### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
-
-1. [Конфигурация VirtualBox через Vagrant](https://www.vagrantup.com/docs/providers/virtualbox/configuration.html)
-2. [Использование условий в Bash](https://www.gnu.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html)
+[*VAGRANT_HOME - поменял*]()
+---
 
 ------
 
@@ -49,6 +46,16 @@
 	* Выполнение в этой директории `vagrant up` установит провайдер VirtualBox для Vagrant, скачает необходимый образ и запустит виртуальную машину.
 
 	* `vagrant suspend` выключит виртуальную машину с сохранением ее состояния (т.е., при следующем `vagrant up` будут запущены все процессы внутри, которые работали на момент вызова suspend), `vagrant halt` выключит виртуальную машину штатным образом.
+
+
+
+	[*установить образ через интерент не удалось из-за за санкционных ограничений с помощью проксисервера скачал с сайта бокс с bento/ubuntu-20.04 и установил с помощью комманд ниже. Работаю из под Windows 10*]()
+	
+	```bash
+	vagrant box add e3801813-59e0-4e69-8ace-78362d9f47cf --name bento/ubuntu-20.04
+	vagrant init bento/ubuntu20.04
+	vagrant up
+	```
 
 1. Ознакомьтесь с графическим интерфейсом VirtualBox, посмотрите как выглядит виртуальная машина, которую создал для вас Vagrant, какие аппаратные ресурсы ей выделены. Какие ресурсы выделены по-умолчанию?
 
