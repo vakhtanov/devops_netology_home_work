@@ -5,6 +5,7 @@
 ![virtula box](https://github.com/vakhtanov/devops_netology_home_work/blob/main/02Terminal_DZ01/virtbox.JPG)
 
 1. Установите средство автоматизации [Hashicorp Vagrant](https://hashicorp-releases.yandexcloud.net/vagrant/).
+![vagrant](https://github.com/vakhtanov/devops_netology_home_work/blob/main/02Terminal_DZ01/vagrant.JPG)
 
 1. В вашем основном окружении подготовьте удобный для дальнейшей работы терминал. Можно предложить:
 
@@ -21,6 +22,9 @@
 	* [WSL2](https://docs.microsoft.com/ru-ru/windows/wsl/wsl2-faq#does-wsl-2-use-hyper-v-will-it-be-available-on-windows-10-home) использует Hyper-V, поэтому с ним VirtualBox также несовместим,
 	* аппаратная виртуализация (Intel VT-x, AMD-V) должна быть активна в BIOS,
 	* в Linux при установке [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads) может дополнительно потребоваться пакет `linux-headers-generic` (debian-based) / `kernel-devel` (rhel-based).
+	---
+	'''Пока буду пользоваться коммандной строкой Windows. Так как на компе какието ошибки или вирусы - не могу установить Win Terminal - не открывается Microsoft Store'''
+	---
 
 
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
