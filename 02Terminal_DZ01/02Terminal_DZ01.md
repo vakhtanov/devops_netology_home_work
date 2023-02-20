@@ -91,7 +91,8 @@
 		```bash
 		touch a{1..5}
 		```
-		[*300000 - создать не получится слишком длинный список*]()
+		
+[*300000 - создать не получится слишком длинный список*]()
 
 
 8. В man bash поищите по `/\[\[`. Что делает конструкция `[[ -d /tmp ]]`
@@ -119,7 +120,7 @@
      type -a bash
      ```
      
-     ![bash is](https://github.com/vakhtanov/devops_netology_home_work/)
+     ![bash is](https://github.com/vakhtanov/devops_netology_home_work/blob/main/02Terminal_DZ01/8bash_is.JPG)
      
 
 10. Чем отличается планирование команд с помощью `batch` и `at`?
@@ -128,6 +129,6 @@
 
 11. Завершите работу виртуальной машины чтобы не расходовать ресурсы компьютера и/или батарею ноутбука.
 
- ![vagrant halt](https://github.com/vakhtanov/devops_netology_home_work/)
+ ![vagrant halt](https://github.com/vakhtanov/devops_netology_home_work/blob/main/02Terminal_DZ01/9vagrant_halt.JPG)
 
 ---
