@@ -91,6 +91,8 @@
     lsof - опеределяем FD и PID для этого файла
     далее
     cat /dev/null > /proc/PID/fd/FD
+    или 
+    echo > /proc/PID/fd/FD
 ```
 
 ```bash
@@ -109,11 +111,15 @@
     
     vi      7315 vagrant    4u   REG  253,0        0 1310809 /home/vagrant/test_touch/.some.swp
     
-    ```
+  ```
     
 
-1. Занимают ли зомби-процессы ресурсы в ОС (CPU, RAM, IO)?
-1. В IO Visor BCC есть утилита `opensnoop`:
+4. Занимают ли зомби-процессы ресурсы в ОС (CPU, RAM, IO)?
+
+    [Зомби процессы ресурсы не занимают]()
+
+
+5. В IO Visor BCC есть утилита `opensnoop`:
 
     ```bash
     root@vagrant:~# dpkg -L bpfcc-tools | grep sbin/opensnoop
