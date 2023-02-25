@@ -40,6 +40,7 @@ cd is a shell builtin
 3. Какой процесс с PID `1` является родителем для всех процессов в вашей виртуальной машине Ubuntu 20.04?
 
 ```bash
+pstree -a -p | head -n 5
 systemd(1)-
 ```
 
