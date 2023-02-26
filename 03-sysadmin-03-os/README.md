@@ -125,7 +125,7 @@
     
     На какие файлы вы увидели вызовы группы `open` за первую секунду работы утилиты? Воспользуйтесь пакетом `bpfcc-tools` для Ubuntu 20.04. Дополнительные сведения по установке [по ссылке](https://github.com/iovisor/bcc/blob/master/INSTALL.md).
     
-    ![screen bpfcc]()
+    ![screen bpfcc](https://github.com/vakhtanov/devops_netology_home_work/blob/main/03-sysadmin-03-os/bpfcc_1secon.JPG)
 
 6. Какой системный вызов использует `uname -a`? Приведите цитату из man по этому системному вызову, где описывается альтернативное местоположение в `/proc` и где можно узнать версию ядра и релиз ОС.  
 
@@ -133,12 +133,12 @@
         strace uname -a
     ```
 
-    ![uname]()
+    ![uname](https://github.com/vakhtanov/devops_netology_home_work/blob/main/03-sysadmin-03-os/uname.JPG)
     
     `man -f uname`  
     `man 2 uname`  
     
-    ![uname_proc]()
+    ![uname_proc](https://github.com/vakhtanov/devops_netology_home_work/blob/main/03-sysadmin-03-os/man_uname.JPG)
     
 7. Чем отличается последовательность команд через `;` и через `&&` в bash? Например:
 
